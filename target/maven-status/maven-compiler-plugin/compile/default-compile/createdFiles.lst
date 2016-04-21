@@ -1,7 +1,0 @@
-com\testapp\service\TestAppService.class
-com\testapp\dao\TestAppDAOImpl.class
-com\testapp\utils\Student.class
-com\testapp\utils\StudyGroup.class
-com\testapp\dao\TestAppDAO.class
-com\testapp\controller\TestAppController.class
-com\testapp\service\TestAppServiceImpl.class

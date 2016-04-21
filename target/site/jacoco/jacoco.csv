@@ -1,6 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-TestApplication Maven Webapp,com.testapp.utils,Student,0,21,0,0,0,8,0,4,0,4
-TestApplication Maven Webapp,com.testapp.utils,StudyGroup,0,41,0,0,0,12,0,6,0,6
-TestApplication Maven Webapp,com.testapp.controller,TestAppController,55,0,4,0,20,0,12,0,10,0
-TestApplication Maven Webapp,com.testapp.service,TestAppServiceImpl,14,0,0,0,5,0,3,0,3,0
-TestApplication Maven Webapp,com.testapp.dao,TestAppDAOImpl,26,0,4,0,9,0,5,0,3,0
