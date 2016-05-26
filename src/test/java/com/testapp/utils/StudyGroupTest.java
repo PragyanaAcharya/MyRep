@@ -29,7 +29,7 @@ public class StudyGroupTest {
         Student testStudent = testStudents.get(0);
         Student returnedStudent = testGroup.getStudent(testStudent.getId());
         Assert.assertSame(returnedStudent, testStudent);
-        Assert.assertEquals(returnedStudent.getId(), 5);
+        Assert.assertEquals(returnedStudent.getId(), testStudent.getId());
         Assert.assertEquals(returnedStudent.getName(), testStudent.getName());
         Assert.assertEquals(returnedStudent.getScore(), testStudent.getScore());
         
