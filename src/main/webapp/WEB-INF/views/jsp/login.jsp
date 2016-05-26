@@ -55,7 +55,7 @@
 
 			<table>
 				<tr>
-					<td>Username:</td>
+					<td>UserName:</td>
 					<td><input type='text' name='username'></td>
 				</tr>
 				<tr>
