@@ -15,7 +15,7 @@ public class StudyGroupTest {
     public void testStudyGroupClass() {
         // prepare the data for test
         final List<Student> testStudents = new ArrayList<Student>();
-        testStudents.add(new Student(1, "Student No.1", 60));
+        testStudents.add(new Student(1, "Student No.1", 6));
         testStudents.add(new Student(2, "Student No.2", 70));
         testStudents.add(new Student(3, "Student No.2", 80));
         
@@ -29,7 +29,7 @@ public class StudyGroupTest {
         Student testStudent = testStudents.get(0);
         Student returnedStudent = testGroup.getStudent(testStudent.getId());
         Assert.assertSame(returnedStudent, testStudent);
-        Assert.assertEquals(returnedStudent.getId(), testStudent.getId());
+        Assert.assertEquals(returnedStudent.getId(), 5);
         Assert.assertEquals(returnedStudent.getName(), testStudent.getName());
         Assert.assertEquals(returnedStudent.getScore(), testStudent.getScore());
         
